@@ -9,6 +9,7 @@ set softtabstop=4
 set mouse=a
 set rtp+=~/.fzf
 set shell=/usr/bin/bash
+set scrolloff=5
 
 " this will install vim-plug if not installed
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
